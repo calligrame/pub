@@ -24,7 +24,7 @@ var eBookData = {
 	pagearea:true,
 	pagesound:"sound1",
 	intro:"basic",
-	RANDOM:777669,
+	RANDOM:465508,
 	
 	
 	bookList : [ /** 이전호 목록 */
@@ -35,6 +35,8 @@ var eBookData = {
 	
 	pageContents : [ /** 페이지 컨텐츠 */
 		[2,{type:"video", id:"Video_1", name:"noname", visible:"true", x:"0", y:"0", width:"700", height:"1280", normalImage:"", movieURL:"1748749833241.mp4"}
+],
+[6,{type:"image", id:"Image_4", name:"noname", visible:"true", x:"-47", y:"548", width:"876", height:"590", opacity:"100", normalImage:"1748827905652.gif", rolloverImage:"", link:""}
 ],
 [13,{type:"youtube", id:"Youtube_0", name:"noname", visible:"true", x:"0", y:"700", width:"700", height:"440", youtubeURL:"https://youtu.be/zK5l5WZLjag?si=HYz8VF86CdZEw3rl"}
 ],
