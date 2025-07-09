@@ -24,7 +24,7 @@ var eBookData = {
 	pagearea:true,
 	pagesound:"sound1",
 	intro:"basic",
-	RANDOM:206408,
+	RANDOM:423050,
 	
 	
 	bookList : [ /** 이전호 목록 */
@@ -45,12 +45,12 @@ var eBookData = {
 {type:"image", id:"Image_5", name:"noname", visible:"true", x:"1372", y:"2134", width:"175", height:"183", opacity:"100", normalImage:"1752037953945.png", rolloverImage:"", link:"address|_blank|https://pf.kakao.com/_xcuXxcb"}
 ],
 [8,{type:"image", id:"Image_0", name:"noname", visible:"true", x:"5", y:"1018", width:"1395", height:"936", opacity:"100", normalImage:"1752035806186.png", rolloverImage:"", link:""},
-{type:"popModal", id:"popModal_Action_Image_0", name:"액션Image_0", dispatcher:"Image_0", event:"onRelease", target:"Video_0", action:"toggleVisible"},
-{type:"video", id:"Video_0", name:"noname", visible:"false", x:"1", y:"635", width:"1393", height:"1114", normalImage:"", movieURL:"1752035845125.mp4"}
+{type:"action", id:"Action_Image_0", name:"액션Image_0", dispatcher:"Image_0", event:"onRelease", target:"Video_0", action:"toggleVisible"},
+{type:"video", id:"Video_0", name:"noname", visible:"false", x:"0", y:"1190", width:"1700", height:"1193", normalImage:"", movieURL:"1752035845125.mp4"}
 ],
-[14,{type:"image", id:"Image_6", name:"noname", visible:"true", x:"260", y:"771", width:"1054", height:"1409", opacity:"100", normalImage:"1752038370428.png", rolloverImage:"", link:""},
-{type:"popModal", id:"popModal_Action_Image_6", name:"액션Image_6", dispatcher:"Image_6", event:"onRelease", target:"Video_3", action:"toggleVisible"},
-{type:"video", id:"Video_3", name:"noname", visible:"false", x:"5", y:"534", width:"1390", height:"1112", normalImage:"", movieURL:"1752038428937.mp4"}
+[14,{type:"image", id:"Image_6", name:"noname", visible:"true", x:"453", y:"1013", width:"1054", height:"1409", opacity:"100", normalImage:"1752038370428.png", rolloverImage:"", link:""},
+{type:"action", id:"Action_Image_6", name:"액션Image_6", dispatcher:"Image_6", event:"onRelease", target:"Video_3", action:"toggleVisible"},
+{type:"video", id:"Video_3", name:"noname", visible:"false", x:"189", y:"808", width:"1364", height:"1348", normalImage:"", movieURL:"1752038428937.mp4"}
 ],
 [19,{type:"image", id:"Image_7", name:"noname", visible:"true", x:"1050", y:"2080", width:"432", height:"264", opacity:"100", normalImage:"1752038874515.png", rolloverImage:"", link:"address|_blank|https://www.jdcenter.com/prcenter/displaywork/support.cs"}
 ],
@@ -69,7 +69,7 @@ var eBookData = {
 [40,{type:"image", id:"Image_19", name:"noname", visible:"false", x:"0", y:"1430", width:"1460", height:"870", opacity:"100", normalImage:"1752042554246.png", rolloverImage:"", link:""},
 {type:"imageSlider", id:"ImageSlider_3", name:"noname", visible:"true", x:"0", y:"1430", width:"1460", height:"870", mode:"slide", normalImage:"1752043895714.jpg", link:"address|_blank|", normalImage1:"1752043895762.jpg", link1:"address|_blank|", normalImage2:"1752043895808.jpg", link2:"address|_blank|", normalImage3:"1752043895852.jpg", link3:"address|_blank|", normalImage4:"1752043895897.jpg", link4:"address|_blank|"}
 ],
-[43,{type:"youtube", id:"Youtube_2", name:"noname", visible:"true", x:"0", y:"1300", width:"1700", height:"1250", youtubeURL:"https://youtu.be/Oml3d-xaa8Y?si=quyjS1bHOy8_0LI9"}
+[42,{type:"youtube", id:"Youtube_5", name:"noname", visible:"true", x:"0", y:"1300", width:"1700", height:"966", youtubeURL:"https://youtu.be/Oml3d-xaa8Y?si=7F6RZUzLRGeGwSQK"}
 ],
 [49,{type:"youtube", id:"Youtube_4", name:"noname", visible:"false", x:"0", y:"372", width:"1860", height:"1057", youtubeURL:"https://youtu.be/KSTBUl9kbvk?si=t2dRFXgEYNcTBq44"},
 {type:"image", id:"Image_13", name:"noname", visible:"true", x:"403", y:"1750", width:"1070", height:"620", opacity:"100", normalImage:"1752041034134.png", rolloverImage:"", link:""},
@@ -113,7 +113,7 @@ var eBookData = {
 		/*11*/	"",
 		/*12*/	"",
 		/*13*/	"",
-		/*14*/	"",
+		/*14*/	"",
 		/*15*/	"",
 		/*16*/	"",
 		/*17*/	"",
