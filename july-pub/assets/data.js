@@ -24,7 +24,7 @@ var eBookData = {
 	pagearea:true,
 	pagesound:"sound1",
 	intro:"basic",
-	RANDOM:423050,
+	RANDOM:47209,
 	
 	
 	bookList : [ /** 이전호 목록 */
@@ -35,8 +35,6 @@ var eBookData = {
 	
 	pageContents : [ /** 페이지 컨텐츠 */
 		[3,{type:"video", id:"Video_1", name:"noname", visible:"true", x:"-113", y:"0", width:"1890", height:"2942", normalImage:"", movieURL:"1752036553158.mp4"}
-],
-[4,{type:"video", id:"Video_2", name:"noname", visible:"true", x:"-113", y:"0", width:"1890", height:"2942", normalImage:"", movieURL:"1752037245800.mp4"}
 ],
 [6,{type:"image", id:"Image_1", name:"noname", visible:"true", x:"253", y:"2134", width:"180", height:"188", opacity:"100", normalImage:"1752037593393.png", rolloverImage:"", link:"address|_blank|https://www.youtube.com/channel/UCWjXz8g_5xqbtYWWmi1z2xw"},
 {type:"image", id:"Image_2", name:"noname", visible:"true", x:"510", y:"2134", width:"194", height:"203", opacity:"100", normalImage:"1752037678226.png", rolloverImage:"", link:"address|_blank|https://blog.naver.com/jdcenter1"},
@@ -52,7 +50,7 @@ var eBookData = {
 {type:"action", id:"Action_Image_6", name:"액션Image_6", dispatcher:"Image_6", event:"onRelease", target:"Video_3", action:"toggleVisible"},
 {type:"video", id:"Video_3", name:"noname", visible:"false", x:"189", y:"808", width:"1364", height:"1348", normalImage:"", movieURL:"1752038428937.mp4"}
 ],
-[19,{type:"image", id:"Image_7", name:"noname", visible:"true", x:"1050", y:"2080", width:"432", height:"264", opacity:"100", normalImage:"1752038874515.png", rolloverImage:"", link:"address|_blank|https://www.jdcenter.com/prcenter/displaywork/support.cs"}
+[19,{type:"image", id:"Image_7", name:"noname", visible:"true", x:"1050", y:"2080", width:"432", height:"264", opacity:"100", normalImage:"1752038874515.png", rolloverImage:"", link:"address|_blank|https://www.jdcenter.com/prcenter/displaywork/support.cs?t=detail&s=2&st=0"}
 ],
 [23,{type:"imageSlider", id:"ImageSlider_1", name:"noname", visible:"true", x:"0", y:"1370", width:"1700", height:"936", mode:"slide", normalImage:"1752042028276.jpg", link:"address|_blank|", normalImage1:"1752042030571.jpg", link1:"address|_blank|", normalImage2:"1752042033539.jpg", link2:"address|_blank|", normalImage3:"1752042036412.jpg", link3:"address|_blank|"}
 ],
