@@ -24,7 +24,7 @@ var eBookData = {
 	pagearea:true,
 	pagesound:"sound1",
 	intro:"basic",
-	RANDOM:710387,
+	RANDOM:598987,
 	
 	
 	bookList : [ /** 이전호 목록 */
@@ -50,7 +50,7 @@ var eBookData = {
 		{index:"78",label:"모다들엉 마당",url:"",child:"0",id:"17",parent:"6"}],
 	
 	pageContents : [ /** 페이지 컨텐츠 */
-		[3,{type:"video", id:"Video_1", name:"noname", visible:"true", x:"-115", y:"0", width:"1890", height:"2942", normalImage:"1752121658927.jpg", movieURL:"1752109923313.mp4"},
+		[3,{type:"video", id:"Video_1", name:"noname", visible:"true", x:"-115", y:"0", width:"1890", height:"2942", normalImage:"1752137854302.jpg", movieURL:"1752109923313.mp4"},
 {type:"audio", id:"Audio_1", name:"noname", visible:"false", x:"149", y:"165", width:"483", height:"77", musicURL:"1752109528002.mp3"},
 {type:"image", id:"Image_28", name:"noname", visible:"true", x:"89", y:"98", width:"927", height:"71", opacity:"100", normalImage:"1752122260603.png", rolloverImage:"", link:""}
 ],
@@ -74,8 +74,7 @@ var eBookData = {
 ],
 [23,{type:"imageSlider", id:"ImageSlider_6", name:"noname", visible:"true", x:"0", y:"1413", width:"1649", height:"938", mode:"slide", normalImage:"1752129343992.jpg", link:"address|_blank|", normalImage1:"1752129344186.jpg", link1:"address|_blank|", normalImage2:"1752129344234.jpg", link2:"address|_blank|", normalImage3:"1752129344276.jpg", link3:"address|_blank|"}
 ],
-[28,{type:"image", id:"Image_17", name:"noname", visible:"false", x:"0", y:"443", width:"1700", height:"1921", opacity:"100", normalImage:"1752042350586.png", rolloverImage:"", link:""},
-{type:"imageSlider", id:"ImageSlider_4", name:"noname", visible:"true", x:"0", y:"443", width:"1700", height:"1921", mode:"slide", normalImage:"1752044302739.jpg", link:"address|_blank|", normalImage1:"1752044302785.jpg", link1:"address|_blank|", normalImage2:"1752044302824.jpg", link2:"address|_blank|"}
+[28,{type:"image", id:"Image_17", name:"noname", visible:"false", x:"0", y:"443", width:"1700", height:"1921", opacity:"100", normalImage:"1752042350586.png", rolloverImage:"", link:""}
 ],
 [35,{type:"youtube", id:"Youtube_0", name:"noname", visible:"true", x:"0", y:"1350", width:"1700", height:"966", youtubeURL:"https://youtu.be/Va32GBaT1mI?si=1i51yhITImE_aIW_"}
 ],
@@ -92,16 +91,12 @@ var eBookData = {
 [49,{type:"youtube", id:"Youtube_4", name:"noname", visible:"false", x:"0", y:"372", width:"1860", height:"1057", youtubeURL:"https://youtu.be/KSTBUl9kbvk?si=t2dRFXgEYNcTBq44"},
 {type:"image", id:"Image_13", name:"noname", visible:"true", x:"403", y:"1750", width:"1070", height:"620", opacity:"100", normalImage:"1752041034134.png", rolloverImage:"", link:""},
 {type:"popModal", id:"popModal_Action_Image_13", name:"액션Image_13", dispatcher:"Image_13", event:"onRelease", target:"Youtube_4", action:"toggleVisible"},
-{type:"image", id:"Image_14", name:"noname", visible:"true", x:"403", y:"1501", width:"471", height:"155", opacity:"100", normalImage:"1752041040407.png", rolloverImage:"", link:"address|_blank|https://www.jdc-jam.com/community/signLanguage.do"},
+{type:"image", id:"Image_14", name:"noname", visible:"true", x:"403", y:"1501", width:"529", height:"155", opacity:"100", normalImage:"1752041040407.png", rolloverImage:"", link:"address|_blank|https://www.jdc-jam.com/community/signLanguage.do"},
 {type:"youtube", id:"Youtube_6", name:"noname", visible:"true", x:"414", y:"1740", width:"1050", height:"620", youtubeURL:"https://youtu.be/KSTBUl9kbvk?si=uXQxjRkUGdCWTON0"}
 ],
-[54,{type:"image", id:"Image_8", name:"noname", visible:"true", x:"1074", y:"1828", width:"253", height:"182", opacity:"100", normalImage:"1752039571771.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/product/product.do?gnbCd=103733&type=020000&PAGE_START=1&PAGE_END=12&ORDER=best&ICOPOS=&PROD_CD_LIST=103733&CHK=notchecked&ALCO_AUCA_DT=N&ALCO_SRVC_AUCA_YN=N&PROD_TYPE123=020000&PROD_TYPE=020000&REMT_RCV_EXCHR=1358.1&SEARCH_CATE%5B%5D=&SEARCH_BRAN%5B%5D="}
+[52,{type:"image", id:"Image_29", name:"noname", visible:"true", x:"1066", y:"2117", width:"416", height:"206", opacity:"100", normalImage:"1752138056009.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/product/product.do?gnbCd=103733&type=020000&PAGE_START=1&PAGE_END=12&ORDER=best&ICOPOS=&PROD_CD_LIST=103733&CHK=notchecked&ALCO_AUCA_DT=N&ALCO_SRVC_AUCA_YN=N&PROD_TYPE123=020000&PROD_TYPE=020000&REMT_RCV_EXCHR=1358.1&SEARCH_CATE%5B%5D=&SEARCH_BRAN%5B%5D="}
 ],
-[55,{type:"image", id:"Image_9", name:"noname", visible:"true", x:"1091", y:"818", width:"253", height:"208", opacity:"100", normalImage:"1752039585740.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/product/product.do?gnbCd=103733&type=020000&PAGE_START=1&PAGE_END=12&ORDER=best&ICOPOS=&PROD_CD_LIST=103733&CHK=notchecked&ALCO_AUCA_DT=N&ALCO_SRVC_AUCA_YN=N&PROD_TYPE123=020000&PROD_TYPE=020000&REMT_RCV_EXCHR=1358.1&SEARCH_CATE%5B%5D=&SEARCH_BRAN%5B%5D="}
-],
-[58,{type:"image", id:"Image_10", name:"noname", visible:"true", x:"200", y:"2110", width:"243", height:"193", opacity:"100", normalImage:"1752039958171.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/product/product.do?gnbCd=101572&type=020000&PAGE_START=1&PAGE_END=12&ORDER=best&ICOPOS=&PROD_CD_LIST=101572&CHK=notchecked&ALCO_AUCA_DT=N&ALCO_SRVC_AUCA_YN=N&PROD_TYPE123=020000&PROD_TYPE=020000&REMT_RCV_EXCHR=1358.1&SEARCH_CATE%5B%5D=&SEARCH_BRAN%5B%5D="}
-],
-[59,{type:"image", id:"Image_11", name:"noname", visible:"true", x:"216", y:"1120", width:"266", height:"189", opacity:"100", normalImage:"1752039971380.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/product/product.do?gnbCd=101572&type=020000&PAGE_START=1&PAGE_END=12&ORDER=best&ICOPOS=&PROD_CD_LIST=101572&CHK=notchecked&ALCO_AUCA_DT=N&ALCO_SRVC_AUCA_YN=N&PROD_TYPE123=020000&PROD_TYPE=020000&REMT_RCV_EXCHR=1358.1&SEARCH_CATE%5B%5D=&SEARCH_BRAN%5B%5D="}
+[56,{type:"image", id:"Image_30", name:"noname", visible:"true", x:"1066", y:"130", width:"420", height:"179", opacity:"100", normalImage:"1752138171247.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/product/product.do?gnbCd=101572&type=020000&PAGE_START=1&PAGE_END=12&ORDER=best&ICOPOS=&PROD_CD_LIST=101572&CHK=notchecked&ALCO_AUCA_DT=N&ALCO_SRVC_AUCA_YN=N&PROD_TYPE123=020000&PROD_TYPE=020000&REMT_RCV_EXCHR=1358.1&SEARCH_CATE%5B%5D=&SEARCH_BRAN%5B%5D="}
 ],
 [60,{type:"image", id:"Image_15", name:"noname", visible:"true", x:"1084", y:"932", width:"366", height:"127", opacity:"100", normalImage:"1752041479865.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/product/alcgnbproduct.do?gnbCd=120000&type=120000&PAGE_START=1&PAGE_END=12&ORDER=best&ICOPOS=&PROD_CD=120000&CHK=notchecked&ALCO_AUCA_DT=N&ALCO_SRVC_AUCA_YN=N&PROD_TYPE123=120000&PROD_TYPE=120000&REMT_RCV_EXCHR=1364.2&SEARCH_CATE%5B%5D=&SEARCH_BRAN%5B%5D="},
 {type:"image", id:"Image_16", name:"noname", visible:"true", x:"474", y:"308", width:"377", height:"464", opacity:"100", normalImage:"1752041453900.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/event/eventDetail.do?serNo=1000000550"}
@@ -140,7 +135,7 @@ var eBookData = {
 		/*16*/	"",
 		/*17*/	"",
 		/*18*/	"",
-		/*19*/	"",
+		/*19*/	"",
 		/*20*/	"",
 		/*21*/	"",
 		/*22*/	"",
@@ -149,7 +144,7 @@ var eBookData = {
 		/*25*/	"",
 		/*26*/	"",
 		/*27*/	"",
-		/*28*/	"",
+		/*28*/	"",
 		/*29*/	"",
 		/*30*/	"",
 		/*31*/	"",
@@ -157,11 +152,11 @@ var eBookData = {
 		/*33*/	"",
 		/*34*/	"",
 		/*35*/	"",
-		/*36*/	"",
+		/*36*/	"",
 		/*37*/	"",
 		/*38*/	"",
 		/*39*/	"",
-		/*40*/	"",
+		/*40*/	"",
 		/*41*/	"",
 		/*42*/	"",
 		/*43*/	"",
@@ -170,17 +165,17 @@ var eBookData = {
 		/*46*/	"",
 		/*47*/	"",
 		/*48*/	"",
-		/*49*/	"",
+		/*49*/	"",
 		/*50*/	"",
 		/*51*/	"",
-		/*52*/	"",
+		/*52*/	"",
 		/*53*/	"",
 		/*54*/	"",
-		/*55*/	"",
-		/*56*/	"",
+		/*55*/	"",
+		/*56*/	"",
 		/*57*/	"",
-		/*58*/	"",
-		/*59*/	"",
+		/*58*/	"",
+		/*59*/	"",
 		/*60*/	"",
 		/*61*/	"",
 		/*62*/	"",
@@ -207,7 +202,7 @@ var eBookData = {
 		/*83*/	"",
 		/*84*/	"",
 		/*85*/	"",
-		/*86*/	""],
+		/*86*/	""],
 	
 	indexTabList : [ /** 인덱스탭 목록 */
 		{textBold:"", useIndex:"true", text:"", width:"100", shadow:"true", radius_TL:"0", radius_TR:"0", radius_BR:"0", radius_BL:"0", txalign:"left", textHeight:"12"},
