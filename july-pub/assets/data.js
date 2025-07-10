@@ -24,7 +24,7 @@ var eBookData = {
 	pagearea:true,
 	pagesound:"sound1",
 	intro:"basic",
-	RANDOM:677259,
+	RANDOM:710387,
 	
 	
 	bookList : [ /** 이전호 목록 */
@@ -54,11 +54,11 @@ var eBookData = {
 {type:"audio", id:"Audio_1", name:"noname", visible:"false", x:"149", y:"165", width:"483", height:"77", musicURL:"1752109528002.mp3"},
 {type:"image", id:"Image_28", name:"noname", visible:"true", x:"89", y:"98", width:"927", height:"71", opacity:"100", normalImage:"1752122260603.png", rolloverImage:"", link:""}
 ],
-[6,{type:"image", id:"Image_1", name:"noname", visible:"true", x:"253", y:"2134", width:"180", height:"188", opacity:"100", normalImage:"1752037593393.png", rolloverImage:"", link:"address|_blank|https://www.youtube.com/channel/UCWjXz8g_5xqbtYWWmi1z2xw"},
-{type:"image", id:"Image_2", name:"noname", visible:"true", x:"510", y:"2134", width:"194", height:"203", opacity:"100", normalImage:"1752037678226.png", rolloverImage:"", link:"address|_blank|https://blog.naver.com/jdcenter1"},
-{type:"image", id:"Image_3", name:"noname", visible:"true", x:"773", y:"2134", width:"169", height:"177", opacity:"100", normalImage:"1752037709367.png", rolloverImage:"", link:"address|_blank|https://www.facebook.com/jdccenter"},
-{type:"image", id:"Image_4", name:"noname", visible:"true", x:"971", y:"2134", width:"186", height:"194", opacity:"100", normalImage:"1752037731068.png", rolloverImage:"", link:"address|_blank|https://www.instagram.com/jdcenter_official/"},
-{type:"image", id:"Image_5", name:"noname", visible:"true", x:"1372", y:"2134", width:"175", height:"183", opacity:"100", normalImage:"1752037953945.png", rolloverImage:"", link:"address|_blank|https://pf.kakao.com/_xcuXxcb"}
+[6,{type:"image", id:"Image_1", name:"noname", visible:"true", x:"188", y:"2140", width:"180", height:"188", opacity:"100", normalImage:"1752037593393.png", rolloverImage:"", link:"address|_blank|https://www.youtube.com/channel/UCWjXz8g_5xqbtYWWmi1z2xw"},
+{type:"image", id:"Image_2", name:"noname", visible:"true", x:"461", y:"2137", width:"194", height:"203", opacity:"100", normalImage:"1752037678226.png", rolloverImage:"", link:"address|_blank|https://blog.naver.com/jdcenter1"},
+{type:"image", id:"Image_3", name:"noname", visible:"true", x:"756", y:"2134", width:"169", height:"177", opacity:"100", normalImage:"1752037709367.png", rolloverImage:"", link:"address|_blank|https://www.facebook.com/jdccenter"},
+{type:"image", id:"Image_4", name:"noname", visible:"true", x:"1016", y:"2124", width:"186", height:"194", opacity:"100", normalImage:"1752037731068.png", rolloverImage:"", link:"address|_blank|https://www.instagram.com/jdcenter_official/"},
+{type:"image", id:"Image_5", name:"noname", visible:"true", x:"176", y:"1655", width:"175", height:"183", opacity:"100", normalImage:"1752037953945.png", rolloverImage:"", link:"address|_blank|https://pf.kakao.com/_xcuXxcb"}
 ],
 [8,{type:"video", id:"Video_0", name:"noname", visible:"false", x:"0", y:"1190", width:"1700", height:"1193", normalImage:"", movieURL:"1752035845125.mp4"},
 {type:"image", id:"Image_24", name:"noname", visible:"false", x:"0", y:"1190", width:"1700", height:"1193", opacity:"100", normalImage:"1752109988537.gif", rolloverImage:"", link:""},
@@ -72,7 +72,7 @@ var eBookData = {
 ],
 [19,{type:"image", id:"Image_7", name:"noname", visible:"true", x:"1050", y:"2080", width:"432", height:"264", opacity:"100", normalImage:"1752038874515.png", rolloverImage:"", link:"address|_blank|https://www.jdcenter.com/prcenter/displaywork/support.cs?t=detail&s=2&st=0"}
 ],
-[23,{type:"imageSlider", id:"ImageSlider_1", name:"noname", visible:"true", x:"0", y:"1370", width:"1700", height:"936", mode:"slide", normalImage:"1752042028276.jpg", link:"address|_blank|", normalImage1:"1752042030571.jpg", link1:"address|_blank|", normalImage2:"1752042033539.jpg", link2:"address|_blank|", normalImage3:"1752042036412.jpg", link3:"address|_blank|"}
+[23,{type:"imageSlider", id:"ImageSlider_6", name:"noname", visible:"true", x:"0", y:"1413", width:"1649", height:"938", mode:"slide", normalImage:"1752129343992.jpg", link:"address|_blank|", normalImage1:"1752129344186.jpg", link1:"address|_blank|", normalImage2:"1752129344234.jpg", link2:"address|_blank|", normalImage3:"1752129344276.jpg", link3:"address|_blank|"}
 ],
 [28,{type:"image", id:"Image_17", name:"noname", visible:"false", x:"0", y:"443", width:"1700", height:"1921", opacity:"100", normalImage:"1752042350586.png", rolloverImage:"", link:""},
 {type:"imageSlider", id:"ImageSlider_4", name:"noname", visible:"true", x:"0", y:"443", width:"1700", height:"1921", mode:"slide", normalImage:"1752044302739.jpg", link:"address|_blank|", normalImage1:"1752044302785.jpg", link1:"address|_blank|", normalImage2:"1752044302824.jpg", link2:"address|_blank|"}
@@ -103,7 +103,7 @@ var eBookData = {
 ],
 [59,{type:"image", id:"Image_11", name:"noname", visible:"true", x:"216", y:"1120", width:"266", height:"189", opacity:"100", normalImage:"1752039971380.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/product/product.do?gnbCd=101572&type=020000&PAGE_START=1&PAGE_END=12&ORDER=best&ICOPOS=&PROD_CD_LIST=101572&CHK=notchecked&ALCO_AUCA_DT=N&ALCO_SRVC_AUCA_YN=N&PROD_TYPE123=020000&PROD_TYPE=020000&REMT_RCV_EXCHR=1358.1&SEARCH_CATE%5B%5D=&SEARCH_BRAN%5B%5D="}
 ],
-[60,{type:"image", id:"Image_15", name:"noname", visible:"true", x:"1227", y:"86", width:"366", height:"127", opacity:"100", normalImage:"1752041479865.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/product/alcgnbproduct.do?gnbCd=120000&type=120000&PAGE_START=1&PAGE_END=12&ORDER=best&ICOPOS=&PROD_CD=120000&CHK=notchecked&ALCO_AUCA_DT=N&ALCO_SRVC_AUCA_YN=N&PROD_TYPE123=120000&PROD_TYPE=120000&REMT_RCV_EXCHR=1364.2&SEARCH_CATE%5B%5D=&SEARCH_BRAN%5B%5D="},
+[60,{type:"image", id:"Image_15", name:"noname", visible:"true", x:"1084", y:"932", width:"366", height:"127", opacity:"100", normalImage:"1752041479865.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/product/alcgnbproduct.do?gnbCd=120000&type=120000&PAGE_START=1&PAGE_END=12&ORDER=best&ICOPOS=&PROD_CD=120000&CHK=notchecked&ALCO_AUCA_DT=N&ALCO_SRVC_AUCA_YN=N&PROD_TYPE123=120000&PROD_TYPE=120000&REMT_RCV_EXCHR=1364.2&SEARCH_CATE%5B%5D=&SEARCH_BRAN%5B%5D="},
 {type:"image", id:"Image_16", name:"noname", visible:"true", x:"474", y:"308", width:"377", height:"464", opacity:"100", normalImage:"1752041453900.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/event/eventDetail.do?serNo=1000000550"}
 ],
 [61,{type:"imageSlider", id:"ImageSlider_0", name:"noname", visible:"false", x:"1227", y:"86", width:"356", height:"119", mode:"slide", normalImage:"1752040094080.png", link:"address|_blank|"},
@@ -114,9 +114,9 @@ var eBookData = {
 ],
 [67,{type:"image", id:"Image_20", name:"noname", visible:"true", x:"864", y:"1480", width:"580", height:"840", opacity:"100", normalImage:"1752045504777.png", rolloverImage:"", link:""},
 {type:"popModal", id:"popModal_Action_Image_20", name:"액션Image_20", dispatcher:"Image_20", event:"onRelease", target:"Image_23", action:"toggleVisible"},
-{type:"image", id:"Image_23", name:"noname", visible:"false", x:"67", y:"192", width:"1285", height:"1816", opacity:"100", normalImage:"1752045651132.jpg", rolloverImage:"", link:""}
+{type:"image", id:"Image_23", name:"noname", visible:"false", x:"0", y:"0", width:"1700", height:"2350", opacity:"100", normalImage:"1752045651132.jpg", rolloverImage:"", link:""}
 ],
-[83,{type:"image", id:"Image_26", name:"noname", visible:"true", x:"1275", y:"1743", width:"225", height:"235", opacity:"100", normalImage:"1752111259116.png", rolloverImage:"", link:"address|_blank|http://pf.kakao.com/_xcuXxcb"}
+[83,{type:"image", id:"Image_26", name:"noname", visible:"true", x:"1048", y:"702", width:"435", height:"170", opacity:"100", normalImage:"1752111259116.png", rolloverImage:"", link:"address|_blank|http://pf.kakao.com/_xcuXxcb"}
 ],
 [86,{type:"image", id:"Image_27", name:"noname", visible:"true", x:"680", y:"2214", width:"312", height:"202", opacity:"100", normalImage:"1752111233778.png", rolloverImage:"", link:"address|_blank|https://www.jdcenter.com/main.cs"}
 ]],
@@ -127,8 +127,8 @@ var eBookData = {
 		/*3*/	"",
 		/*4*/	"",
 		/*5*/	"",
-		/*6*/	"",
-		/*7*/	"",
+		/*6*/	"",
+		/*7*/	"",
 		/*8*/	"",
 		/*9*/	"",
 		/*10*/	"",
@@ -144,13 +144,13 @@ var eBookData = {
 		/*20*/	"",
 		/*21*/	"",
 		/*22*/	"",
-		/*23*/	"",
+		/*23*/	"",
 		/*24*/	"",
 		/*25*/	"",
 		/*26*/	"",
 		/*27*/	"",
 		/*28*/	"",
-		/*29*/	"",
+		/*29*/	"",
 		/*30*/	"",
 		/*31*/	"",
 		/*32*/	"",
@@ -167,7 +167,7 @@ var eBookData = {
 		/*43*/	"",
 		/*44*/	"",
 		/*45*/	"",
-		/*46*/	"",
+		/*46*/	"",
 		/*47*/	"",
 		/*48*/	"",
 		/*49*/	"",
@@ -181,7 +181,7 @@ var eBookData = {
 		/*57*/	"",
 		/*58*/	"",
 		/*59*/	"",
-		/*60*/	"",
+		/*60*/	"",
 		/*61*/	"",
 		/*62*/	"",
 		/*63*/	"",
@@ -203,8 +203,8 @@ var eBookData = {
 		/*79*/	"",
 		/*80*/	"",
 		/*81*/	"",
-		/*82*/	"",
-		/*83*/	"",
+		/*82*/	"",
+		/*83*/	"",
 		/*84*/	"",
 		/*85*/	"",
 		/*86*/	""],
