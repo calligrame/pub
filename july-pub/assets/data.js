@@ -24,18 +24,35 @@ var eBookData = {
 	pagearea:true,
 	pagesound:"sound1",
 	intro:"basic",
-	RANDOM:365013,
+	RANDOM:677259,
 	
 	
 	bookList : [ /** 이전호 목록 */
 		],
 	
 	tableList : [ /** 목차 */
-		],
+		{index:"-1",label:"root",url:"",child:"5",id:"0",parent:"-1"},
+		{index:"8",label:"Touch",url:"",child:"3",id:"2",parent:"0"},
+		{index:"8",label:"JDC 비전웨이브",url:"",child:"0",id:"7",parent:"2"},
+		{index:"14",label:"터에서 치르다",url:"",child:"0",id:"8",parent:"2"},
+		{index:"20",label:"I'll land, 글로벌",url:"",child:"0",id:"9",parent:"2"},
+		{index:"26",label:"Hybrid",url:"",child:"2",id:"3",parent:"0"},
+		{index:"26",label:"人site 테이블",url:"",child:"0",id:"10",parent:"3"},
+		{index:"36",label:"제주 모먼트",url:"",child:"0",id:"11",parent:"3"},
+		{index:"44",label:"Unique",url:"",child:"2",id:"4",parent:"0"},
+		{index:"44",label:"함께하는 JDC",url:"",child:"0",id:"12",parent:"4"},
+		{index:"50",label:"JDC 컬렉션",url:"",child:"0",id:"13",parent:"4"},
+		{index:"62",label:"Multiplay",url:"",child:"2",id:"5",parent:"0"},
+		{index:"62",label:"예술과 Thumb타기",url:"",child:"0",id:"14",parent:"5"},
+		{index:"68",label:"제주 말씸 지킴이",url:"",child:"0",id:"15",parent:"5"},
+		{index:"72",label:"Beyond",url:"",child:"2",id:"6",parent:"0"},
+		{index:"72",label:"ESG 리포트",url:"",child:"0",id:"16",parent:"6"},
+		{index:"78",label:"모다들엉 마당",url:"",child:"0",id:"17",parent:"6"}],
 	
 	pageContents : [ /** 페이지 컨텐츠 */
-		[3,{type:"video", id:"Video_1", name:"noname", visible:"true", x:"-115", y:"0", width:"1890", height:"2942", normalImage:"", movieURL:"1752109923313.mp4"},
-{type:"audio", id:"Audio_1", name:"noname", visible:"false", x:"149", y:"165", width:"483", height:"77", musicURL:"1752109528002.mp3"}
+		[3,{type:"video", id:"Video_1", name:"noname", visible:"true", x:"-115", y:"0", width:"1890", height:"2942", normalImage:"1752121658927.jpg", movieURL:"1752109923313.mp4"},
+{type:"audio", id:"Audio_1", name:"noname", visible:"false", x:"149", y:"165", width:"483", height:"77", musicURL:"1752109528002.mp3"},
+{type:"image", id:"Image_28", name:"noname", visible:"true", x:"89", y:"98", width:"927", height:"71", opacity:"100", normalImage:"1752122260603.png", rolloverImage:"", link:""}
 ],
 [6,{type:"image", id:"Image_1", name:"noname", visible:"true", x:"253", y:"2134", width:"180", height:"188", opacity:"100", normalImage:"1752037593393.png", rolloverImage:"", link:"address|_blank|https://www.youtube.com/channel/UCWjXz8g_5xqbtYWWmi1z2xw"},
 {type:"image", id:"Image_2", name:"noname", visible:"true", x:"510", y:"2134", width:"194", height:"203", opacity:"100", normalImage:"1752037678226.png", rolloverImage:"", link:"address|_blank|https://blog.naver.com/jdcenter1"},
@@ -75,7 +92,8 @@ var eBookData = {
 [49,{type:"youtube", id:"Youtube_4", name:"noname", visible:"false", x:"0", y:"372", width:"1860", height:"1057", youtubeURL:"https://youtu.be/KSTBUl9kbvk?si=t2dRFXgEYNcTBq44"},
 {type:"image", id:"Image_13", name:"noname", visible:"true", x:"403", y:"1750", width:"1070", height:"620", opacity:"100", normalImage:"1752041034134.png", rolloverImage:"", link:""},
 {type:"popModal", id:"popModal_Action_Image_13", name:"액션Image_13", dispatcher:"Image_13", event:"onRelease", target:"Youtube_4", action:"toggleVisible"},
-{type:"image", id:"Image_14", name:"noname", visible:"true", x:"403", y:"1501", width:"471", height:"155", opacity:"100", normalImage:"1752041040407.png", rolloverImage:"", link:"address|_blank|https://www.jdc-jam.com/community/signLanguage.do"}
+{type:"image", id:"Image_14", name:"noname", visible:"true", x:"403", y:"1501", width:"471", height:"155", opacity:"100", normalImage:"1752041040407.png", rolloverImage:"", link:"address|_blank|https://www.jdc-jam.com/community/signLanguage.do"},
+{type:"youtube", id:"Youtube_6", name:"noname", visible:"true", x:"414", y:"1740", width:"1050", height:"620", youtubeURL:"https://youtu.be/KSTBUl9kbvk?si=uXQxjRkUGdCWTON0"}
 ],
 [54,{type:"image", id:"Image_8", name:"noname", visible:"true", x:"1074", y:"1828", width:"253", height:"182", opacity:"100", normalImage:"1752039571771.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/product/product.do?gnbCd=103733&type=020000&PAGE_START=1&PAGE_END=12&ORDER=best&ICOPOS=&PROD_CD_LIST=103733&CHK=notchecked&ALCO_AUCA_DT=N&ALCO_SRVC_AUCA_YN=N&PROD_TYPE123=020000&PROD_TYPE=020000&REMT_RCV_EXCHR=1358.1&SEARCH_CATE%5B%5D=&SEARCH_BRAN%5B%5D="}
 ],
@@ -89,7 +107,7 @@ var eBookData = {
 {type:"image", id:"Image_16", name:"noname", visible:"true", x:"474", y:"308", width:"377", height:"464", opacity:"100", normalImage:"1752041453900.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/event/eventDetail.do?serNo=1000000550"}
 ],
 [61,{type:"imageSlider", id:"ImageSlider_0", name:"noname", visible:"false", x:"1227", y:"86", width:"356", height:"119", mode:"slide", normalImage:"1752040094080.png", link:"address|_blank|"},
-{type:"image", id:"Image_12", name:"noname", visible:"true", x:"1227", y:"86", width:"356", height:"119", opacity:"100", normalImage:"1752040105502.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/event/eventDetail.do?serNo=1000000546"}
+{type:"image", id:"Image_12", name:"noname", visible:"true", x:"1109", y:"133", width:"356", height:"119", opacity:"100", normalImage:"1752040105502.png", rolloverImage:"", link:"address|_blank|https://www.jdcdutyfree.com/mall/event/eventDetail.do?serNo=1000000546"}
 ],
 [65,{type:"image", id:"Image_21", name:"noname", visible:"false", x:"0", y:"0", width:"1700", height:"2350", opacity:"100", normalImage:"1752044623371.png", rolloverImage:"", link:""},
 {type:"imageSlider", id:"ImageSlider_5", name:"noname", visible:"true", x:"0", y:"0", width:"1700", height:"2350", mode:"slide", normalImage:"1752045475501.jpg", link:"address|_blank|", normalImage1:"1752045475553.jpg", link1:"address|_blank|", normalImage2:"1752045475598.jpg", link2:"address|_blank|", normalImage3:"1752045475635.jpg", link3:"address|_blank|"}
@@ -164,7 +182,7 @@ var eBookData = {
 		/*58*/	"",
 		/*59*/	"",
 		/*60*/	"",
-		/*61*/	"",
+		/*61*/	"",
 		/*62*/	"",
 		/*63*/	"",
 		/*64*/	"",
@@ -197,5 +215,5 @@ var eBookData = {
 		{text:"Hybrid", textColor:"0xffffff,100", backgroundColor:"0x114fa4,100", link:"26"},
 		{text:"Unique", textColor:"0xffffff,100", backgroundColor:"0x1114a4,100", link:"44"},
 		{text:"Multiplay", textColor:"0xffffff,100", backgroundColor:"0x00b050,100", link:"62"},
-		{text:"Beyond", textColor:"0xffffff,100", backgroundColor:"0x000000,100", link:"72"}]
+		{text:"Beyond", textColor:"0xffffff,100", backgroundColor:"0x4d1c7c,100", link:"72"}]
 	};
