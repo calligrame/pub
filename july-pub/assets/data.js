@@ -24,7 +24,7 @@ var eBookData = {
 	pagearea:true,
 	pagesound:"sound1",
 	intro:"basic",
-	RANDOM:768045,
+	RANDOM:168203,
 	
 	
 	bookList : [ /** 이전호 목록 */
@@ -113,6 +113,8 @@ var eBookData = {
 ],
 [83,{type:"image", id:"Image_26", name:"noname", visible:"true", x:"1048", y:"702", width:"435", height:"170", opacity:"100", normalImage:"1752111259116.png", rolloverImage:"", link:"address|_blank|http://pf.kakao.com/_xcuXxcb"}
 ],
+[84,{type:"image", id:"Image_31", name:"noname", visible:"true", x:"164", y:"1222", width:"423", height:"205", opacity:"100", normalImage:"1752805707930.png", rolloverImage:"", link:"address|_blank|https://forms.gle/WvHgAwnZxh6GFNqCA"}
+],
 [86,{type:"image", id:"Image_27", name:"noname", visible:"true", x:"680", y:"2214", width:"312", height:"202", opacity:"100", normalImage:"1752111233778.png", rolloverImage:"", link:"address|_blank|https://www.jdcenter.com/main.cs"}
 ]],
 	
@@ -200,7 +202,7 @@ var eBookData = {
 		/*81*/	"",
 		/*82*/	"",
 		/*83*/	"",
-		/*84*/	"",
+		/*84*/	"",
 		/*85*/	"",
 		/*86*/	""],
 	
