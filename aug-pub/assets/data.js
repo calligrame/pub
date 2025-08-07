@@ -5,7 +5,7 @@ var eBookData = {
 	password			: "",
 	useDebug			: false,
 	pageExt				: "svg",
-	totalPageNum		: 82,
+	totalPageNum		: 83,
 	useLogo				: false,
 	logoUrl				: "",
 	homeUrl				: "",
@@ -24,7 +24,7 @@ var eBookData = {
 	pagearea:true,
 	pagesound:"sound1",
 	intro:"basic",
-	RANDOM:629670,
+	RANDOM:37707,
 	
 	
 	bookList : [ /** 이전호 목록 */
@@ -32,22 +32,22 @@ var eBookData = {
 	
 	tableList : [ /** 목차 */
 		{index:"-1",label:"root",url:"",child:"5",id:"0",parent:"-1"},
-		{index:"8",label:"Touch",url:"",child:"3",id:"2",parent:"0"},
+		{index:"8",label:"Touch",url:"",child:"4",id:"2",parent:"0"},
 		{index:"8",label:"JDC 비전웨이브",url:"",child:"0",id:"7",parent:"2"},
 		{index:"14",label:"터에서 치르다",url:"",child:"0",id:"8",parent:"2"},
 		{index:"20",label:"I'll land, 글로벌",url:"",child:"0",id:"9",parent:"2"},
-		{index:"26",label:"Hybrid",url:"",child:"2",id:"3",parent:"0"},
-		{index:"26",label:"人site 테이블",url:"",child:"0",id:"10",parent:"3"},
-		{index:"36",label:"제주 모먼트",url:"",child:"0",id:"11",parent:"3"},
-		{index:"44",label:"Unique",url:"",child:"2",id:"4",parent:"0"},
-		{index:"44",label:"함께하는 JDC",url:"",child:"0",id:"12",parent:"4"},
-		{index:"50",label:"JDC 컬렉션",url:"",child:"0",id:"13",parent:"4"},
-		{index:"62",label:"Multiplay",url:"",child:"2",id:"5",parent:"0"},
-		{index:"62",label:"예술과 Thumb타기",url:"",child:"0",id:"14",parent:"5"},
-		{index:"68",label:"제주 말씸 지킴이",url:"",child:"0",id:"15",parent:"5"},
-		{index:"72",label:"Beyond",url:"",child:"2",id:"6",parent:"0"},
-		{index:"72",label:"ESG 리포트",url:"",child:"0",id:"16",parent:"6"},
-		{index:"78",label:"모다들엉 마당",url:"",child:"0",id:"17",parent:"6"}],
+		{index:"26",label:"",url:"",child:"0",id:"18",parent:"2"},
+		{index:"32",label:"Hybrid",url:"",child:"1",id:"3",parent:"0"},
+		{index:"32",label:"人site 테이블",url:"",child:"0",id:"10",parent:"3"},
+		{index:"40",label:"Unique",url:"",child:"2",id:"4",parent:"0"},
+		{index:"40",label:"함께하는 JDC",url:"",child:"0",id:"12",parent:"4"},
+		{index:"46",label:"JDC 컬렉션",url:"",child:"0",id:"13",parent:"4"},
+		{index:"58",label:"Multiplay",url:"",child:"2",id:"5",parent:"0"},
+		{index:"58",label:"예술과 Thumb타기",url:"",child:"0",id:"14",parent:"5"},
+		{index:"64",label:"제주 말씸 지킴이",url:"",child:"0",id:"15",parent:"5"},
+		{index:"70",label:"Beyond",url:"",child:"2",id:"6",parent:"0"},
+		{index:"70",label:"ESG 리포트",url:"",child:"0",id:"16",parent:"6"},
+		{index:"76",label:"모다들엉 마당",url:"",child:"0",id:"17",parent:"6"}],
 	
 	pageContents : [ /** 페이지 컨텐츠 */
 		[3,{type:"audio", id:"Audio_1", name:"noname", visible:"false", x:"149", y:"165", width:"483", height:"77", musicURL:"1752109528002.mp3"},
@@ -87,7 +87,9 @@ var eBookData = {
 [80,{type:"image", id:"Image_31", name:"", visible:"true", x:"560", y:"2029", width:"461", height:"205", opacity:"100", normalImage:"1752806517034.png", rolloverImage:"", link:"address|_blank|https://naver.me/5xa0nFXf"},
 {type:"image", id:"Image_32", name:"", visible:"true", x:"1068", y:"2046", width:"410", height:"176", opacity:"100", normalImage:"1753060080848.png", rolloverImage:"", link:"address|_blank|https://naver.me/Fbqui5dK"}
 ],
-[82,{type:"image", id:"Image_27", name:"noname", visible:"true", x:"680", y:"2214", width:"312", height:"202", opacity:"100", normalImage:"1752111233778.png", rolloverImage:"", link:"address|_blank|https://www.jdcenter.com/main.cs"}
+[81,{type:"image", id:"Image_38", name:"noname", visible:"true", x:"1066", y:"725", width:"410", height:"157", opacity:"100", normalImage:"1754544262999.png", rolloverImage:"", link:"address|_blank|https://pf.kakao.com/_xcuXxcb"}
+],
+[83,{type:"image", id:"Image_27", name:"noname", visible:"true", x:"680", y:"2214", width:"312", height:"202", opacity:"100", normalImage:"1752111233778.png", rolloverImage:"", link:"address|_blank|https://www.jdcenter.com/main.cs"}
 ]],
 	
 	textList : [ /** 본문 검색 */
@@ -172,13 +174,14 @@ var eBookData = {
 		/*79*/	"",
 		/*80*/	"",
 		/*81*/	"",
-		/*82*/	""],
+		/*82*/	"",
+		/*83*/	""],
 	
 	indexTabList : [ /** 인덱스탭 목록 */
 		{textBold:"", useIndex:"true", text:"", width:"100", shadow:"true", radius_TL:"0", radius_TR:"0", radius_BR:"0", radius_BL:"0", txalign:"left", textHeight:"12"},
 		{text:"Touch", textColor:"0xffffff,100", backgroundColor:"0x00b0f0,100", link:"8"},
-		{text:"Hybrid", textColor:"0xffffff,100", backgroundColor:"0x114fa4,100", link:"26"},
-		{text:"Unique", textColor:"0xffffff,100", backgroundColor:"0x1114a4,100", link:"44"},
-		{text:"Multiplay", textColor:"0xffffff,100", backgroundColor:"0x00b050,100", link:"62"},
-		{text:"Beyond", textColor:"0xffffff,100", backgroundColor:"0x4d1c7c,100", link:"72"}]
+		{text:"Hybrid", textColor:"0xffffff,100", backgroundColor:"0x114fa4,100", link:"32"},
+		{text:"Unique", textColor:"0xffffff,100", backgroundColor:"0x1114a4,100", link:"40"},
+		{text:"Multiplay", textColor:"0xffffff,100", backgroundColor:"0x00b050,100", link:"58"},
+		{text:"Beyond", textColor:"0xffffff,100", backgroundColor:"0x4d1c7c,100", link:"70"}]
 	};
